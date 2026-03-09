@@ -5,9 +5,12 @@ Tech Stack
 - Python
 - Google Sheets
 - Google Gemini (AI)
+  
 Python
 - Created synthetic data
 - transferred data from python to PostgreSQL
+
+
 PostgreSQL
 - Query data
 - executive pipeline summary
@@ -30,10 +33,8 @@ Logic: Compares cumulative usage against the contractual "Committed Spend."
 Risk Identification: Created SQL Views to flag "Silent Churn" (accounts with <25% utilization) and "Upsell Candidates" (>90% utilization).
 
 2. Usage Trend Analysis (Python)
-Using Python, I analyzed daily usage fluctuations to identify platform-specific trends (AWS vs. Azure vs. GCP).
-Visualization: Built a Quadrant Analysis scatter plot to visually segment the customer base for the VP of Sales.
 Data Integrity: Implemented error handling and type-casting to manage messy CSV-to-DB transitions.
 
 4. Forecasting & Strategic Recommendations
 By joining the Sales Pipeline with current Burn Rates, I provided a risk-adjusted forecast for Q1 revenue.
-Weighted Pipeline: Calculated $Expected Value \times Probability$ to determine if new bookings cover the identified churn risk in Enterprise accounts.
+Weighted Pipeline: Calculated Expected Value \times Probability to determine if new bookings cover the identified churn risk in Enterprise accounts.

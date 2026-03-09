@@ -1,6 +1,3 @@
---How to use this in an interview
---If an interviewer asks, "How do you identify risk in a consumption business?" you point to this query.
---You explain that you don't just look at "Usage" in a vacuum; you look at Usage vs. Commitment. A customer using 1,000 units might look great, but if they paid for 10,000 units, they are actually a high-risk account.
 
 SELECT *
 FROM accounts;
